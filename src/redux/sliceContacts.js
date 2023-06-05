@@ -2,8 +2,8 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 // Primer estado ----
 
-const contactsInitialState = JSON.parse(window.localStorage.getItem('contacts'));
-
+//const contactsInitialState = JSON.parse(window.localStorage.getItem('contacts'));
+const contactsInitialState = [];
 // Slice -----
 
 const contactsSlice = createSlice({
